@@ -1,0 +1,27 @@
+{
+	"name": "topy-ai-cso-all",
+	"version": "0.1.0",
+	"description": "All 19 TOPY AI CSO skills in one install: AI CSO core (MCP), Vulnerabilities & supply chain, Code & secrets, Web surface, Agent & MCP security, Response & reporting.",
+	"author": {
+		"name": "TOPY AI LTD",
+		"email": "startup@topy.ai",
+		"url": "https://topy.ai"
+	},
+	"homepage": "https://topy.ai/developers",
+	"repository": "https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills",
+	"license": "MIT",
+	"keywords": [
+		"topy.ai",
+		"ai-cso",
+		"bundle"
+	],
+	"privacyPolicyUrl": "https://topy.ai/privacy",
+	"dependencies": [
+		"topy-ai-cso",
+		"topy-ai-cso-vulnerabilities",
+		"topy-ai-cso-code",
+		"topy-ai-cso-web",
+		"topy-ai-cso-agents",
+		"topy-ai-cso-response"
+	]
+}

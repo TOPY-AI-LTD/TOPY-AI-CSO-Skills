@@ -1,0 +1,104 @@
+{
+	"$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+	"name": "topy-ai-cso",
+	"owner": {
+		"name": "TOPY AI LTD",
+		"email": "startup@topy.ai"
+	},
+	"metadata": {
+		"description": "AI CSO skills for founders, built for TOPY.AI: a security officer that watches new CVEs and end-of-life dates for everything the company runs, keeps secrets out of code, checks only domains you have verified, vets every skill and MCP server before it is trusted and turns findings into plain-language fixes for a person to apply. Core skills run on the TOPY CSO MCP server (https://topy.ai/mcp/cso); standalone skills are security methods that work anywhere.",
+		"version": "0.1.0"
+	},
+	"plugins": [
+		{
+			"name": "topy-ai-cso",
+			"source": "./plugins/topy-ai-cso",
+			"description": "TOPY AI CSO core: connects the TOPY CSO MCP server and keeps the company's security watched day to day — Connect the AI CSO, Daily security watch, The CSO's goals, First security setup.",
+			"version": "0.1.0",
+			"category": "productivity",
+			"keywords": [
+				"topy.ai",
+				"ai-cso",
+				"security",
+				"core"
+			]
+		},
+		{
+			"name": "topy-ai-cso-vulnerabilities",
+			"source": "./plugins/topy-ai-cso-vulnerabilities",
+			"description": "TOPY AI CSO Vulnerabilities & supply chain skills (4): Are we affected by this CVE?, Dependencies and supply chain, End of life and patch-behind, Vet a package before installing. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+			"version": "0.1.0",
+			"category": "productivity",
+			"keywords": [
+				"topy.ai",
+				"ai-cso",
+				"security",
+				"vulnerabilities"
+			]
+		},
+		{
+			"name": "topy-ai-cso-code",
+			"source": "./plugins/topy-ai-cso-code",
+			"description": "TOPY AI CSO Code & secrets skills (3): Unsafe code patterns, Secrets in code, Threat model and OWASP checklist. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+			"version": "0.1.0",
+			"category": "productivity",
+			"keywords": [
+				"topy.ai",
+				"ai-cso",
+				"security",
+				"code"
+			]
+		},
+		{
+			"name": "topy-ai-cso-web",
+			"source": "./plugins/topy-ai-cso-web",
+			"description": "TOPY AI CSO Web surface skills (3): Verify a domain, Headers and TLS, Safe web scan of a verified site. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+			"version": "0.1.0",
+			"category": "productivity",
+			"keywords": [
+				"topy.ai",
+				"ai-cso",
+				"security",
+				"web"
+			]
+		},
+		{
+			"name": "topy-ai-cso-agents",
+			"source": "./plugins/topy-ai-cso-agents",
+			"description": "TOPY AI CSO Agent & MCP security skills (2): Audit our own MCP server, Vet a skill or MCP server. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+			"version": "0.1.0",
+			"category": "productivity",
+			"keywords": [
+				"topy.ai",
+				"ai-cso",
+				"security",
+				"agents"
+			]
+		},
+		{
+			"name": "topy-ai-cso-response",
+			"source": "./plugins/topy-ai-cso-response",
+			"description": "TOPY AI CSO Response & reporting skills (3): Fix plan for a person to apply, Incident timeline, Weekly security report. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+			"version": "0.1.0",
+			"category": "productivity",
+			"keywords": [
+				"topy.ai",
+				"ai-cso",
+				"security",
+				"response"
+			]
+		},
+		{
+			"name": "topy-ai-cso-all",
+			"source": "./plugins/topy-ai-cso-all",
+			"description": "All 19 TOPY AI CSO skills in one install: AI CSO core (MCP), Vulnerabilities & supply chain, Code & secrets, Web surface, Agent & MCP security, Response & reporting.",
+			"version": "0.1.0",
+			"category": "productivity",
+			"keywords": [
+				"topy.ai",
+				"ai-cso",
+				"bundle"
+			]
+		}
+	]
+}

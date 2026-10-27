@@ -1,0 +1,19 @@
+{
+	"name": "topy-ai-cso-skills",
+	"private": true,
+	"version": "0.1.0",
+	"description": "AI CSO skills for founders, built for TOPY.AI: a security officer that watches new CVEs and end-of-life dates for everything the company runs, keeps secrets out of code, checks only domains you have verified, vets every skill and MCP server before it is trusted and turns findings into plain-language fixes for a person to apply. Core skills run on the TOPY CSO MCP server (https://topy.ai/mcp/cso); standalone skills are security methods that work anywhere.",
+	"license": "MIT",
+	"repository": "https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills",
+	"keywords": [
+		"pi-package",
+		"agent-skills",
+		"ai-cso",
+		"topy.ai"
+	],
+	"pi": {
+		"skills": [
+			"./plugins/*/skills"
+		]
+	}
+}

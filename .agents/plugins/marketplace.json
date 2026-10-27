@@ -1,0 +1,80 @@
+{
+	"name": "topy-ai-cso",
+	"interface": {
+		"displayName": "TOPY.AI AI CSO skills"
+	},
+	"plugins": [
+		{
+			"name": "topy-ai-cso",
+			"source": {
+				"source": "local",
+				"path": "./plugins/topy-ai-cso"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "ON_INSTALL"
+			},
+			"category": "Productivity"
+		},
+		{
+			"name": "topy-ai-cso-vulnerabilities",
+			"source": {
+				"source": "local",
+				"path": "./plugins/topy-ai-cso-vulnerabilities"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "NONE"
+			},
+			"category": "Productivity"
+		},
+		{
+			"name": "topy-ai-cso-code",
+			"source": {
+				"source": "local",
+				"path": "./plugins/topy-ai-cso-code"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "NONE"
+			},
+			"category": "Productivity"
+		},
+		{
+			"name": "topy-ai-cso-web",
+			"source": {
+				"source": "local",
+				"path": "./plugins/topy-ai-cso-web"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "NONE"
+			},
+			"category": "Productivity"
+		},
+		{
+			"name": "topy-ai-cso-agents",
+			"source": {
+				"source": "local",
+				"path": "./plugins/topy-ai-cso-agents"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "NONE"
+			},
+			"category": "Productivity"
+		},
+		{
+			"name": "topy-ai-cso-response",
+			"source": {
+				"source": "local",
+				"path": "./plugins/topy-ai-cso-response"
+			},
+			"policy": {
+				"installation": "AVAILABLE",
+				"authentication": "NONE"
+			},
+			"category": "Productivity"
+		}
+	]
+}

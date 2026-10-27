@@ -1,0 +1,38 @@
+{
+	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+	"name": "topy-ai-cso",
+	"version": "0.1.0",
+	"description": "TOPY AI CSO core: connects the TOPY CSO MCP server and keeps the company's security watched day to day — Connect the AI CSO, Daily security watch, The CSO's goals, First security setup.",
+	"author": {
+		"name": "TOPY AI LTD",
+		"email": "startup@topy.ai",
+		"url": "https://topy.ai"
+	},
+	"homepage": "https://topy.ai/developers",
+	"repository": "https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills",
+	"license": "MIT",
+	"keywords": [
+		"topy.ai",
+		"ai-cso",
+		"security",
+		"core"
+	],
+	"extensions": {
+		"com.openai": {
+			"interface": {
+				"displayName": "TOPY.AI AI CSO",
+				"shortDescription": "TOPY AI CSO core: connects the TOPY CSO MCP server and keeps the company's security watched day to day — Connect the AI ",
+				"longDescription": "TOPY AI CSO core: connects the TOPY CSO MCP server and keeps the company's security watched day to day — Connect the AI CSO, Daily security watch, The CSO's goals, First security setup.",
+				"capabilities": [
+					"Read",
+					"Write"
+				],
+				"category": "Productivity",
+				"brandColor": "#FF1212",
+				"privacyPolicyURL": "https://topy.ai/privacy",
+				"websiteURL": "https://topy.ai",
+				"developerName": "TOPY AI LTD"
+			}
+		}
+	}
+}

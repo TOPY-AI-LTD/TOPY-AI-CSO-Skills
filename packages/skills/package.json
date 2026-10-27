@@ -1,0 +1,58 @@
+{
+	"name": "@topy-ai/cso-skills",
+	"version": "0.1.0",
+	"description": "Install the TOPY.AI AI CSO skills (daily CVE and end-of-life watch, dependencies and secrets, headers, TLS and safe web scans of verified domains, skill and MCP vetting, incidents and weekly security reports) into Claude Code, Codex, Pi, Cursor, Gemini CLI, OpenCode, Copilot and other coding agents, for one project or for your user. Also a Pi package.",
+	"type": "module",
+	"license": "MIT",
+	"homepage": "https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills.git",
+		"directory": "packages/skills"
+	},
+	"bugs": "https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills/issues",
+	"keywords": [
+		"topy.ai",
+		"ai-cso",
+		"founders",
+		"security",
+		"cve",
+		"vulnerabilities",
+		"supply-chain",
+		"skills",
+		"agent-skills",
+		"claude-code",
+		"codex",
+		"pi-package",
+		"pi",
+		"cursor",
+		"gemini-cli",
+		"opencode",
+		"mcp"
+	],
+	"bin": {
+		"cso-skills": "bin/cso-skills.mjs"
+	},
+	"pi": {
+		"skills": [
+			"./skills"
+		]
+	},
+	"files": [
+		"bin",
+		"skills",
+		"catalog.json",
+		"README.md",
+		"LICENSE"
+	],
+	"engines": {
+		"node": ">=18"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"prepack": "node scripts/bundle.mjs",
+		"test": "node scripts/bundle.mjs && node --test scripts/cli.test.mjs"
+	}
+}

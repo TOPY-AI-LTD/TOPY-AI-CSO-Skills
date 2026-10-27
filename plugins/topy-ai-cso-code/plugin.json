@@ -1,0 +1,37 @@
+{
+	"$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+	"name": "topy-ai-cso-code",
+	"version": "0.1.0",
+	"description": "TOPY AI CSO Code & secrets skills (3): Unsafe code patterns, Secrets in code, Threat model and OWASP checklist. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+	"author": {
+		"name": "TOPY AI LTD",
+		"email": "startup@topy.ai",
+		"url": "https://topy.ai"
+	},
+	"homepage": "https://topy.ai/developers",
+	"repository": "https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills",
+	"license": "MIT",
+	"keywords": [
+		"topy.ai",
+		"ai-cso",
+		"security",
+		"code"
+	],
+	"extensions": {
+		"com.openai": {
+			"interface": {
+				"displayName": "TOPY.AI CSO Code & secrets",
+				"shortDescription": "TOPY AI CSO Code & secrets skills (3): Unsafe code patterns, Secrets in code, Threat model and OWASP checklist. Add the ",
+				"longDescription": "TOPY AI CSO Code & secrets skills (3): Unsafe code patterns, Secrets in code, Threat model and OWASP checklist. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+				"capabilities": [
+					"Read"
+				],
+				"category": "Productivity",
+				"brandColor": "#FF1212",
+				"privacyPolicyURL": "https://topy.ai/privacy",
+				"websiteURL": "https://topy.ai",
+				"developerName": "TOPY AI LTD"
+			}
+		}
+	}
+}

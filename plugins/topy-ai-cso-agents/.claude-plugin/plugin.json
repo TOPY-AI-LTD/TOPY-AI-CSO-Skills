@@ -1,0 +1,20 @@
+{
+	"name": "topy-ai-cso-agents",
+	"version": "0.1.0",
+	"description": "TOPY AI CSO Agent & MCP security skills (2): Audit our own MCP server, Vet a skill or MCP server. Add the topy-ai-cso plugin too, for the core skills and the CSO MCP server.",
+	"author": {
+		"name": "TOPY AI LTD",
+		"email": "startup@topy.ai",
+		"url": "https://topy.ai"
+	},
+	"homepage": "https://topy.ai/developers",
+	"repository": "https://github.com/TOPY-AI-LTD/TOPY-AI-CSO-Skills",
+	"license": "MIT",
+	"keywords": [
+		"topy.ai",
+		"ai-cso",
+		"security",
+		"agents"
+	],
+	"privacyPolicyUrl": "https://topy.ai/privacy"
+}
